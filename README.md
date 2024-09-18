@@ -26,7 +26,7 @@ To better understand the proposed method in JEM, here are some things and facts 
 
 1. EBM usually presents an underlying distribution as the form of Gibbs distribution with the energy function, such as: 
 
-    $P_{\theta}(x) = \dfrac{\hat{P}_{\theta}(x)}{Z} = \dfrac{e^{-E_{\theta}(x)}}{Z}$, where $Z = \int_{}^{} e^{-E_{\theta}(x)} dx$
+    $P_{\theta}(x)=\dfrac{\hat{P}_{\theta}(x)}{Z}=\dfrac{e^{-E_{\theta}(x)}}{Z}$, where $Z=\int_{}^{} e^{-E_{\theta}(x)}dx$
 
 2. Since the natural log function $\ln(\cdot)$ is monotonic, given the collected dataset $D$, $\arg\max_\theta P_{\theta}(D) = \arg\max_\theta \ln{P_{\theta}(D)} = \arg\max_\theta -E_{\theta}(D) - \ln{Z_{\theta}}$  
 
