@@ -147,7 +147,9 @@ The following figures are the visualization results of synthesized data in the t
 | ---------- |
 | ![SGLD](assets/SGLD_process_demo.gif)|
 
-
+| Cifar10 Testing Acc.| 
+| ---------- |
+| ![ACC](assets/test_accuracy.png)|
 
 As shown above, we can see that the JEM gradually captures the underlying distribution $P_{\theta}(x)$ such that we can sample from it, without sacrificing the performance of classification task.
 
